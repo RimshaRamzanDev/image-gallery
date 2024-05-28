@@ -62,6 +62,269 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    updated
+
+
+
+    <!-- <!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <p><b>Explore Visual Beauty</b></p>
+            <button id="back-button">Home</button>
+            <button class="category-button" data-category="nature">Coding</button>
+            <button class="category-button" data-category="animals">Trending</button>
+            <button class="category-button" data-category="architecture">Windows</button>
+
+            
+        </nav>
+    </header>
+
+    <main>
+        <div class="gallery">
+            <div class="gallery-item" data-category="nature">
+                <img src="biker-with-gears-on-4k-fs.jpg" alt="Nature Image 1" onclick="showImageModal(this)">
+                <div class="description">A beautiful nature scene.</div>
+            </div>
+            <div class="gallery-item" data-category="animals">
+                <img src="MadeOwn.png" alt="Animal Image 1" onclick="showImageModal(this)">
+                <div class="description">A beautiful MadeOwn.</div>
+            </div>
+            <div class="gallery-item" data-category="architecture">
+                <img src="google-logo-typography-night-crescent-moon-half-moon-5k-8k-8001x4501-4562.png" alt="Architecture Image 1" onclick="showImageModal(this)">
+                <div class="description">Google photo.</div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="born-to-code-3840x2160-10608.png" alt="Category Image 1" onclick="showImageModal(this)">
+                <div class="description">Born to Code.</div>
+            </div>
+            <div class="gallery-item" data-category="architecture">
+                <img src="dont-fucking-procrastinate.jpg" alt="Category Image 2" onclick="showImageModal(this)">
+                <div class="description">Don't procrastinate. If there's any problem let me know</div>
+            </div>
+            <div class="gallery-item" data-category="animals">
+                <img src="coffee-laptop-7680x4320-13640.png" alt="Category Image 3" onclick="showImageModal(this)">
+                <div class="description">A coffee-laptop.</div>
+            </div>
+            <div class="gallery-item" data-category="architecture">
+                <img src="windows-11-dark-mode-abstract-background-black-background-3840x2160-8710.jpg" alt="Category Image 4" onclick="showImageModal(this)">
+            </div>
+            <div class="gallery-item" data-category="animals">
+                <img src="sung-jinwoo-8k-7680x4320-14673.jpg" alt="Category Image 5" onclick="showImageModal(this)">
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="success-inspirational-quotes-hand-dark-background-5k-4868x2316-8265.jpg" alt="Category Image 6" onclick="showImageModal(this)">
+            </div>
+        </div>
+    </main>
+
+    <div id="imageModal" class="modal">
+        <div class="modal-content">
+            <div id="imageDetails">
+                <img class="modal-image" id="fullImage">
+                <p class="description" id="imageDescription"></p>
+            </div>
+
+            <div class="modal-buttons">
+                <a id="downloadLink" download><button>Download</button></a>
+                <button id="closeModalButton">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <p><b>Explore Visual Beauty</b></p>
+            <button id="back-button">Home</button>
+            <button class="category-button" data-category="nature">Coding</button>
+            <button class="category-button" data-category="animals">Cars</button>
+            <button class="category-button" data-category="architecture">Windows</button>
+            <button class="category-button" data-category="architecture">Animals</button>
+            <button class="category-button" data-category="architecture">Motivational</button>
+            
+
+
+        </nav>
+    </header>
+
+    <main>
+        <div class="gallery">
+            <div class="gallery-item" data-category="nature">
+                <img src="biker-with-gears-on-4k-fs.jpg" alt="Nature Image 1" onclick="showImageModal(this)">
+                <div class="description">Heavy Bike</div>
+            </div>
+            <div class="gallery-item" data-category="animals">
+                <img src="MadeOwn.png" alt="Animal Image 1" onclick="showImageModal(this)">
+                <div class="description">Motivational.</div>
+            </div>
+            <div class="gallery-item" data-category="architecture">
+                <img src="google-logo-typography-night-crescent-moon-half-moon-5k-8k-8001x4501-4562.png"
+                    alt="Architecture Image 1" onclick="showImageModal(this)">
+                <div class="description">Google photo.</div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="born-to-code-3840x2160-10608.png" alt="Category Image 1" onclick="showImageModal(this)">
+                <div class="description">Born to Code.</div>
+            </div>
+            <div class="gallery-item" data-category="architecture">
+                <img src="dont-fucking-procrastinate.jpg" alt="Category Image 2" onclick="showImageModal(this)">
+                <div class="description">Don't procrastinate. If there's any problem let me know</div>
+            </div>
+            <div class="gallery-item" data-category="animals">
+                <img src="coffee-laptop-7680x4320-13640.png" alt="Category Image 3" onclick="showImageModal(this)">
+                <div class="description">Programming with Coffee</div>
+            </div>
+            <div class="gallery-item" data-category="architecture">
+                <img src="windows-11-dark-mode-abstract-background-black-background-3840x2160-8710.jpg"
+                    alt="Category Image 4" onclick="showImageModal(this)">
+                <div class="description">Window 11</div>
+            </div>
+            <div class="gallery-item" data-category="animals">
+                <img src="sung-jinwoo-8k-7680x4320-14673.jpg" alt="Category Image 5" onclick="showImageModal(this)">
+                <div class="description">Attitude Boy</div>
+            </div>
+
+            <div class="gallery-item" data-category="animals">
+                <img src="windows-server-2025-3840x2160-15386.jpg" alt="Category Image 5"
+                    onclick="showImageModal(this)">
+                <div class="description">Attitude Boy</div>
+            </div>
+
+            <div class="gallery-item" data-category="animals">
+                <img src="windows-11-dark-mode-abstract-background-black-background-3840x2160-8710.jpg"
+                    alt="Category Image 5" onclick="showImageModal(this)">
+                <div class="description">Attitude Boy</div>
+            </div>
+
+            <div class="gallery-item" data-category="animals">
+                <img src="mercedes-benz-amg-3840x2160-16850.jpg" alt="Category Image 5" onclick="showImageModal(this)">
+                <div class="description">Attitude Boy</div>
+            </div>
+
+            <div class="gallery-item" data-category="animals">
+                <img src="gmc-hummer-ev-8k-ev-3840x2160-16849.jpg" alt="Category Image 5"
+                    onclick="showImageModal(this)">
+                <div class="description">Attitude Boy</div>
+            </div>
+
+            <div class="gallery-item" data-category="animals">
+                <img src="samsung-galaxy-3840x2160-16767.png" alt="Category Image 5" onclick="showImageModal(this)">
+                <div class="description">Attitude Boy</div>
+            </div>
+
+            <div class="gallery-item" data-category="animals">
+                <img src="bmw-art-car-8k-bmw-3840x2160-16789.jpg" alt="Category Image 5" onclick="showImageModal(this)">
+                <div class="description">Attitude Boy</div>
+            </div>
+
+            <div class="gallery-item" data-category="animals">
+                <img src="wolf-crown-king-smoke-3840x2160-16766 (1).jpg" alt="Category Image 5"
+                    onclick="showImageModal(this)">
+                <div class="description">Attitude Boy</div>
+            </div>
+
+            <div class="gallery-item" data-category="animals">
+                <img src="pink-aesthetic-3480x2160-16812.jpg" alt="Category Image 5" onclick="showImageModal(this)">
+                <div class="description">Attitude Boy</div>
+            </div>
+
+            <div class="gallery-item" data-category="animals">
+                <img src="spring-magical-3840x2160-16778 (1).jpg" alt="Category Image 5" onclick="showImageModal(this)">
+                <div class="description">Attitude Boy</div>
+            </div>
+
+
+
+        </div>
+    </main>
+
+    <div id="imageModal" class="modal">
+        <div class="modal-content">
+            <div id="imageDetails">
+                <img class="modal-image" id="fullImage">
+                <p class="description" id="imageDescription"></p>
+            </div>
+
+            <!-- <div class="modal-buttons">
+                <a id="downloadLink" download><button>Download</button></a>
+                
+                <button id="closeModalButton">Back</button>
+            </div> -->
+
+
+            <!-- <div class="modal-buttons">
+                <button id="downloadButton">Download</button>
+                <button id="closeModalButton">Back</button>
+            </div> -->
+
+
+            <div class="modal-buttons">
+                <a id="downloadLink" href="#" download>Download</a>
+                <button id="closeModalButton">Back</button>
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+
+</body>
+
+</html>
+
+
+
 </body>
 
 </html>
